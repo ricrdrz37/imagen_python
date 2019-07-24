@@ -39,11 +39,11 @@ EXPOSE 80
 ADD entrypoint.sh /datos1
 
 ##VOLUME##
-ADD paginas /var/www/html
-VOLUME ["/var/www/html"]
+##ADD paginas /var/www/html
+##VOLUME ["/var/www/html"]
 
 ##CMD##
-CMD /datos1/entrypoint.sh
+#CMD /datos1/entrypoint.sh
 
 ##ENTRYPOINT##
 #ENTRYPOINT ["/bin/bash"]
